@@ -58,8 +58,13 @@ html {
 		background-size: 100%;
 		background-position: center center;
 		margin: 0 auto;
-		width: 292px;
-		height: 56px;
+		width: 200px;
+		height: 49px;
+		border-bottom: none;
+	}
+
+	a:hover {
+		text-decoration: none;
 	}
 }
 
