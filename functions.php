@@ -112,6 +112,8 @@ function enqueue_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
+    wp_enqueue_script( 'hm-handbook-scripts', get_theme_file_uri( 'assets/theme/scripts.js' ), array( 'jquery' ), '1.0', true );
+    wp_enqueue_style( 'hm-handbook-style', get_theme_file_uri( 'assets/theme/style.css' ), [], '1.0' );
 }
 
 /**

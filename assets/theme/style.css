@@ -1,0 +1,15 @@
+.gf_readonly input {
+     border: none;
+}
+.article ul {
+    padding-left: 2.5em;
+    margin-left: 0;
+}
+.article ul li {
+    margin-bottom: 6px;
+}
+.gform_button.button {
+    border: 2px solid #189ac4;
+    background: #189ac4;
+    color: #FFF;
+}
