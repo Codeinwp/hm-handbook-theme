@@ -9,7 +9,57 @@
     margin-bottom: 6px;
 }
 .gform_button.button {
-    border: 2px solid #189ac4;
-    background: #189ac4;
-    color: #FFF;
+    border: none;
+	background: #189ac4;
+	color: #fff;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.page-id-393 .site-content-container .gfield_label {
+	font-size: 1.333rem;
+	line-height: 1.9995rem;
+	font-family: "Montserrat",sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+}
+.page-id-393 .site-content-container {
+	padding-top: 0;
+}
+.page-id-393 .site-content-container h2 a,
+.single-update .article-title {
+	color: #fa6775;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	font-size: 20px;
+}
+.single-update .article-title {
+	line-height: 1;
+}
+.page-id-393 .site-content-container p {
+	margin: 10px 0;
+}
+.page-id-393 .site-content-container .entry-meta {
+	margin-bottom: 20px;
+}
+.page-id-393 .site-content-container .entry-meta a:hover {
+	border-bottom: none;
+}
+.single-update .article-content p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 10px 0;
+}
+@media (max-width: 767px) {
+	.page-id-393 .site-content-container .obfx-grid-col-content {
+		text-align: left;
+	}
+}
+@media (min-width: 30rem) {
+	.page-id-393 .site-content-container .gfield_label {
+		font-size: 2.222rem;
+		line-height: 3.3325rem;
+		margin-top: 0;
+	}
 }
